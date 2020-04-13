@@ -1,0 +1,30 @@
+label {
+  position: relative;
+  color: rgb(247, 247, 247);
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+input {
+  margin-top: 1em;
+  font-family: 'Montserrat';
+  display: block;
+  width: 600px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.9em;
+  padding-left: 0.5em;
+  font-weight: 400;
+
+  background-image: url('/assets/search.svg');
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+  background-size: 25px;
+}
+
+input::placeholder {
+  color: rgb(194, 194, 194);
+  font-weight: 300;
+  font-size: 0.9em;
+}

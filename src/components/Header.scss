@@ -1,0 +1,21 @@
+.header-container {
+  height: 50vh;
+  background-image: url('/assets/background-img.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0.8em 0;
+  }
+
+  div {
+    margin: 4em 0;
+  }
+}
