@@ -9,3 +9,9 @@ html,
 body {
   font-family: 'Montserrat';
 }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-rows: 275px;
+}

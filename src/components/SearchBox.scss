@@ -10,12 +10,13 @@ input {
   font-family: 'Montserrat';
   display: block;
   width: 600px;
-  height: 40px;
+  height: 60px;
   border: none;
   border-radius: 7px;
   font-size: 0.9em;
-  padding-left: 0.5em;
+  padding-left: 0.9em;
   font-weight: 400;
+  outline: none;
 
   background-image: url('/assets/search.svg');
   background-repeat: no-repeat;
